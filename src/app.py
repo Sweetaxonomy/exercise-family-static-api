@@ -76,7 +76,7 @@ def delete_member(member_id):
 
     return jsonify({"done": True}), 200
 ##----------------------------------------------------------
-#cambiar estaaaaa
+
 @app.route('/members', methods=['GET'])
 def handle_hello():
     # This is how you can use the Family datastructure by calling its methods
